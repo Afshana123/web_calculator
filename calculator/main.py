@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return "Welcome to the Calculator App"
+    return "Welcome to the Calculator App - Jenkins"
 
 
 # URL: 127.0.0.1:5000/add/1/2
