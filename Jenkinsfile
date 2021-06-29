@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "oabuoun/web-calculator"
+    registry = "afshana123/web-calculator"
     registryCredential = "docker_auth"
     dockerImage = ''
   }
@@ -15,7 +15,7 @@ pipeline {
     stage('Cloning our Git') {
     		steps {
             git branch: 'main',
-            url: 'https://github.com/oabuoun/calculator.git'
+            url: 'https://github.com/Afshana123/web_calculator.git'
     		}
     }
 
